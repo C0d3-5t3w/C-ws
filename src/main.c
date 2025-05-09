@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <signal.h>
+#include <ctype.h> // Add this header for strcasecmp
 
 static ws_server_t server;
 static int running = 1;
